@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dados>
+    <user>
+        <tipo>admin</tipo>
+        <email>saude@admin.com</email>
+        <senha>123456</senha>
+    </user>
+    <user>
+        <tipo>medico</tipo>    
+        <email>astolfo@gmail.com</email>
+        <senha>4455</senha>
+        <nome>Astolfo Marinho </nome>
+        <endereco>Rua das Marmotas, 44</endereco>
+        <telefone>55 77885544</telefone>
+        <especialidade>Cardiologista</especialidade>
+        <CRM>4477885523</CRM>
+        
+        <consultas>
+        <paciente>Roberval dos Santos</paciente>
+        <CPF>45296347522</CPF>
+        <data>10/07/2020</data>
+        <doenca>Hipertensão</doenca>
+        <observacoes>Roberval está ótimo</observacoes>
+
+        <paciente>Patricia das Neves</paciente>
+        <CPF>45296347525</CPF>
+        <data>25/10/2019</data>
+        <doenca>Cardiopata</doenca>
+        <observacoes>Observações</observacoes>
+
+        <paciente>Maria das Nuvens</paciente>
+        <CPF>45296347442</CPF>
+        <data>12/05/2020</data>
+        <doenca>Sem doença preexistente</doenca>
+        <observacoes> Observações 2</observacoes>
+
+        <paciente>Roberval dos Santos</paciente>
+        <CPF>45296347522</CPF>
+        <data>15/07/2020</data>
+        <doenca>Hipertensão</doenca>
+        <observacoes>Roberval vai infartar</observacoes>
+        </consultas>
+        </user>
+
+    <user>
+        <tipo>medico</tipo>
+        <email>joana@gmail.com</email>
+        <senha>9876</senha>
+        <nome>Joana Fernandes</nome>
+        <endereco>Rua das Capivaras, 88</endereco>
+        <telefone>(53) 555888444</telefone>
+        <especialidade>Endocrinologista</especialidade>
+        <CRM>4477889966</CRM>
+
+        <consultas>
+        </consultas>
+
+    </user>
+
+    <user>
+        <tipo>medico</tipo>
+        <nome>Mario Bros</nome>
+        <senha>6547</senha>
+        <email>mariob@gmail.com</email>
+        <endereco>Rua das Lontras, 478</endereco>
+        <telefone>(53) 774411524</telefone>
+        <especialidade>Ginecologista</especialidade>
+        <CRM>0125682264</CRM>
+
+        <consultas>
+        <paciente>Patricia das Neves</paciente>
+        <CPF>45296347525</CPF>
+        <data>05/08/2020</data>
+        <doenca>Endometriose</doenca>
+        <observacoes>Paciente em bom estado de saúde</observacoes>
+        </consultas>
+    </user>
+
+    <user>
+        <tipo>laboratorio</tipo>
+        <email>labos@gmail.com</email>
+        <senha>122333</senha>
+        <nome>Labos</nome>
+        <CNPJ>1681681618981</CNPJ>
+        <endereco> Rua das Enseadas, 777</endereco>
+        <telefone>5530224111</telefone>
+        
+        <exames> 
+        <paciente>Roberval dos Santos</paciente>
+        <CPF>45296347522</CPF>
+        <data>15/07/2020</data>
+        <tipodeexame>Sangue - Troponina </tipodeexame>
+        <resultado> Positivo </resultado>
+        </exames>
+    </user>
+
+    <user>
+        <tipo>paciente</tipo>
+        <email>robervalsan@gmail.com</email>
+        <senha>7777</senha>
+        <nome>Roberval dos Santos</nome>
+        <idade>55</idade>
+        <CPF>45296347522</CPF>
+        <endereco>Rua das Alamedas, 444</endereco>
+        <telefone>55 881445236</telefone>
+        <genero>Masculino</genero>
+        <consultas>
+            <medico>Astolfo Marinho</medico>
+            <especialidade>Cardiologista</especialidade>
+            <data>10/07/2020</data>
+
+            <medico>Astolfo Marinho</medico>
+            <especialidade>Cardiologista</especialidade>
+            <data>15/07/2020</data>
+        </consultas>
+        <exames>
+        <data>15/07/2020</data>
+        <tipodeexame>Sangue - Troponina </tipodeexame>
+        <resultado> Positivo </resultado>
+        </exames>
+    </user>
+    <user>
+        <tipo>paciente</tipo>
+        <email>patneves@gmail.com</email>
+        <senha>8888</senha>
+        <nome>Patricia das Neves</nome>
+        <idade>31</idade>
+        <CPF>45296347525</CPF>
+        <endereco>Rua dos Lameiros, 412</endereco>
+        <telefone>55 881445458</telefone>
+        <genero>Feminino</genero>
+        <consultas>
+            <medico>Astolfo Marinho</medico>
+            <especialidade>Cardiologista</especialidade>
+            <data>25/10/2019</data>
+
+            <medico>Mario Bros</medico> 
+            <especialidade>Ginecologista</especialidade>
+            <data>05/08/2020</data>
+        </consultas>
+        <exames>
+        </exames>
+    </user>
+    <user>
+        <tipo>paciente</tipo>
+        <email>marianu@gmail.com</email>
+        <senha>9999</senha>
+        <nome>Maria das Nuvens</nome>
+        <idade>41</idade>
+        <CPF>45296347442</CPF>
+        <endereco>Rua das Poças, 125</endereco>
+        <telefone>55 882445569</telefone>
+        <genero>Feminino</genero>
+        <consultas>
+            <medico>Astolfo Marinho</medico>
+            <especialidade>Cardiologista</especialidade>
+            <data>12/05/2020</data>
+        </consultas>
+        <exames>
+        </exames>
+    </user>
+<user><tipo>paciente</tipo><email>lureis@gmail.com</email><senha>5555</senha><nome>Luciana dos Reis</nome><idade>41</idade><CPF>98465165122</CPF><endereco>Rua da Concha, 124</endereco><telefone>5422511445</telefone><genero>Não declarado</genero><consultas> </consultas><exames> </exames></user></dados>
