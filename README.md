@@ -21,4 +21,7 @@ PACIENTEs VÊ HISTÓRICO de Consultas no Médico VÊ HISTÓRICO de Exames no Lab
 
 CUIDADO COM O SIGILO DOS DADOS!! Por exemplo, um médico só vê histórico das consultas que ele realizou. Além disso, um paciente só pode ver os seus dados. O campo observação de uma consulta, só pode ser visto pelo médico e não pelo paciente!
 
-Tecnologias: HTML -> Estrutura da Página e Geração de Formulários CSS -> Interface Gráfica JavaScript -> Personalização Página e Validação Formulários XML -> Armazenamento de dados PHP -> Manipulação Dados e Geracão Resultados
+Tecnologias: HTML -> Estrutura da Página e Geração de Formulários 
+CSS -> Interface Gráfica JavaScript -> Personalização Página e Validação Formulários 
+XML -> Armazenamento de dados 
+PHP -> Manipulação Dados e Geracão Resultados
